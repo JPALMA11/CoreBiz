@@ -42,8 +42,10 @@ pageextension 50102 "ItemAttributeFactboxExt" extends "Item Attributes Factbox"
                     Rec.Reset();
                     Rec.SetRange("Attribute ID", ItemAttribute.ID);
                     if Rec.FindFirst() then begin
-                        Rec.Value := ItemAttributeValueMapping."Value Name";
-                        Rec.Modify();
+                        if ItemAttributeValueMapping."Value Name" <> '' then begin
+                            Rec.Value := ItemAttributeValueMapping."Value Name";
+                            Rec.Modify();
+                        end;
                     end;
                     Rec.Reset();
                 end;
