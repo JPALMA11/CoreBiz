@@ -1,0 +1,26 @@
+{
+  "id": "8824ad48-d2ad-48d8-9c7e-9f84632b99ff",
+  "name": "CoreBiz",
+  "publisher": "Default publisher",
+  "version": "1.0.0.2",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://CoreBiz.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
